@@ -118,7 +118,7 @@
 											</thead>
 											<tbody id="tbl-body">
         										<?php 
-                                                    $ketqua = false;
+                                                    $ketqua = 3;
                                                     $dapan_dung = '';
                                                     $dapan_nguoidung = '';
                                                     $socaudung = 0;
@@ -137,9 +137,9 @@
                                                                 if($row['dapannguoidung_id']==$row_2['cau_dapan_id']){
                                                                     $dapan_nguoidung = $row_2['noidungdapan'];
                                                                     if($row_2['dapandung']==1) {
-                                                                        $ketqua = true;
+                                                                        $ketqua = 1;
                                                                         $socaudung = $socaudung + 1;
-                                                                    }   else $ketqua = false;
+                                                                    }   else $ketqua = 2;
                                                                 }
                                                             }
                                                         }
@@ -147,9 +147,11 @@
                                                         echo("</td>");
                                                         echo("<td>".$dapan_dung."</td>" );
                                                         echo("<td>".$dapan_nguoidung."</td>" );     
-                                                        if($ketqua==true)
+                                                        if($ketqua==1)
                                                             echo("<td><button class='btn btn-success btn-xs'>Đúng</button></td>");   
-                                                        else echo("<td><button class='btn btn-danger btn-xs'>Sai</button></td>");
+                                                        else if($ketqua==2) echo("<td><button class='btn btn-danger btn-xs'>Sai</button></td>");
+                                                                else echo ("<td><button class='btn btn-danger btn-xs'>Chưa chọn</button></td>");
+                                                        $ketqua = 3;
                                                     }
                                                 ?>
                                                 <tr>
@@ -158,13 +160,6 @@
                                                     <td></td>
                                                     <td><span style='font-size: x-large;'>Số câu đúng</span></td>
                                                     <td><?php echo "<span style='font-size: x-large;'>".$socaudung." / " .$tongsocau."</span>" ; ?></td>
-                                                </tr>
-                                                <tr>
-                                                    <td></td>
-                                                    <td></td>
-                                                    <td></td>
-                                                    <td><span style='font-size: x-large;'>Điểm</span></td>
-                                                    <td><?php echo "<span style='font-size: x-large;'>".$socaudung*10/$tongsocau."</span>"; ?></td>
                                                 </tr>
 											</tbody>
 										</table>
