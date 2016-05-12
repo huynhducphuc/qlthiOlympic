@@ -9,7 +9,7 @@
     <meta name="author" content="IS">
     <meta name="viewport" content="width=device-width,initial-scale=1">
 
-    <link rel="shortcut icon" href="https://www.onlinequizcreator.com/favicon.ico?v=1461143210">
+    <link rel="shortcut icon" href="./resources/images/favicon.ico">
     <link rel="stylesheet" type="text/css" href="./resources/css/styles.css">
     <script type="text/javascript" src="./resources/js/modernizr-2.0.6.min.js"></script>
 
@@ -81,7 +81,7 @@
                             <li class="hier"><a href="#">Home</a></li>
                             <li><a href="#">Quizzes</a></li>
                             <li><a href="#">Help</a></li>
-                            <li><a href="#">Contact</a></li>
+                            <li><a href="admin/login.php">Admin</a></li>
                         </ul>
                     </nav>
                 </div>

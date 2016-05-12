@@ -15,9 +15,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<title>User</title>
-	
+	<link rel="shortcut icon" href="./resources/images/favicon.ico">
 	<!-- Bootstrap core CSS -->
-
+	
 	<link href="resources/production/css/bootstrap.min.css" rel="stylesheet">
 	
 	<link href="resources/production/fonts/css/font-awesome.min.css" rel="stylesheet">
@@ -115,7 +115,7 @@
 					<ul class="nav navbar-nav navbar-right">
 						<li class=""><a href="javascript:;"
 							class="user-profile dropdown-toggle" data-toggle="dropdown"
-							aria-expanded="false"> <img src="resources/images/avatar.png" alt="">VacxinTeam <span class=" fa fa-angle-down"></span>
+							aria-expanded="false"> <img src="resources/images/avatar.png" alt="">OlympicN<span class=" fa fa-angle-down"></span>
 						</a>
 							<ul
 								class="dropdown-menu dropdown-usermenu animated fadeInDown pull-right">

@@ -17,7 +17,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     
-    <link rel="shortcut icon" href="https://www.onlinequizcreator.com/favicon.ico?v=1461143210">
+    <link rel="shortcut icon" href="./resources/images/favicon.ico">
     <link rel="stylesheet" type="text/css" href="resources/css/styles.css">
     <script type="text/javascript" src="resources/js/modernizr-2.js"></script>
     <title>Register</title>

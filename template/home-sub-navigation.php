@@ -59,7 +59,7 @@
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Quizzes</a></li>
                     <li><a href="#">Help</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="admin/login.php">Admin</a></li>
                 </ul>
             </nav>
         </div>
